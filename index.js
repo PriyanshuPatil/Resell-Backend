@@ -1,4 +1,4 @@
-const connection=require("../Resell-Backend/configs/db")
+const connection=require("./configs/db")
 const  express=require("express") ;
 const cors=require("cors");
 const { usersRouter } = require("./routes/user.routes");
